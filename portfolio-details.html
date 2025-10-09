@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Professional Web Developer | Frontend Excellence</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favi-new.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-details-page">
+
+  <button class="header-toggle d-xl-none" id="mobile-menu-toggle" aria-label="Toggle navigation" aria-expanded="false"
+    type="button">
+    <i class="bi bi-list" style="font-size:2rem;"></i>
+  </button>
+  <header id="header" class="header glass-header d-flex flex-column align-items-center justify-content-between py-4">
+
+    <div class="profile-img shadow-lg mx-auto mb-3">
+      <img src="assets/img/my-profile-img.jpg" alt="Profile"
+        class="img-fluid rounded-circle border border-4 border-primary" loading="eager" width="140" height="140">
+    </div>
+
+    <a href="index.html" class="logo d-flex flex-column align-items-center justify-content-center mb-2">
+      <img src="assets/img/logo.png" alt="Logo" class="mb-1" style="width:36px;height:36px;">
+      <h1 class="sitename fw-bold text-gradient mb-0">vishwraj</h1>
+    </a>
+
+    <div class="social-links d-flex justify-content-center gap-2 mb-4">
+      <a href="#" class="twitter social-hover" title="Twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="https://wa.me/" class="whatsapp social-hover" target="_blank" rel="noopener"
+        aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+      <a href="#" class="instagram social-hover" title="Instagram"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="google-plus social-hover" title="Skype"><i class="bi bi-skype"></i></a>
+      <a href="#" class="linkedin social-hover" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+
+    <div class="resume-download-container">
+          <a href="assets/final-new-resume.pdf" target="_blank" download class="resume-download-btn">
+            <i class="bi bi-download"></i>
+            Download Career File
+          </a>
+        </div>
+    <!-- Navigation Menu -->
+    <nav id="navmenu" class="navmenu mt-5">
+      <ul class="nav flex-column gap-2">
+        <li><a href="https://dev.digitize-info.com/html_project/v-introduction/#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="https://dev.digitize-info.com/html_project/v-introduction/#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="https://dev.digitize-info.com/html_project/v-introduction/#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="https://dev.digitize-info.com/html_project/v-introduction/#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="https://dev.digitize-info.com/html_project/v-introduction/#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container page-title-container">
+        <h1 class="page-main-title">Portfolio Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Portfolio Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details-section">
+      <div class="container portfolio-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="portfolio-grid">
+          <!-- Image Slider -->
+          <div class="portfolio-slider-container">
+            <div class="portfolio-slider-wrapper">
+              <div class="portfolio-slider swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  },
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  }
+                }
+              </script>
+
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img id="portfolio-detail-image" src="" alt="Selected Project" loading="lazy"
+                      class="portfolio-image">
+                  </div>
+                  <!-- Additional slides can be added here -->
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Information -->
+          <div class="portfolio-info-container">
+            <div class="portfolio-info-card" data-aos="fade-up" data-aos-delay="200">
+              <h3 class="info-title">Project Information</h3>
+              <div class="info-content">
+                <div class="info-item">
+                  <div class="info-icon-porfolio-dd">
+                    <i class="bi bi-grid"></i>
+                  </div>
+                  <div class="info-details">
+                    <span class="info-label">Category</span>
+                    <span id="portfolio-detail-category" class="info-value">WordPress & PHP ACF</span>
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <div class="info-icon-porfolio-dd">
+                    <i class="bi bi-person"></i>
+                  </div>
+                  <div class="info-details">
+                    <span class="info-label">Client</span>
+                    <span id="portfolio-detail-client" class="info-value">Business Client</span>
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <div class="info-icon-porfolio-dd">
+                    <i class="bi bi-calendar"></i>
+                  </div>
+                  <div class="info-details">
+                    <span class="info-label">Project Date</span>
+                    <span id="portfolio-detail-date" class="info-value">01 March, 2015</span>
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <div class="info-icon-porfolio-dd">
+                    <i class="bi bi-link"></i>
+                  </div>
+                  <div class="info-details">
+                    <span class="info-label">Project URL</span>
+                    <a id="portfolio-detail-url" href="https://lendingusa.com/" target="_blank"
+                      class="info-link">https://lendingusa.com/</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-description-card" data-aos="fade-up" data-aos-delay="300">
+              <h2 id="portfolio-detail-title" class="description-title">LendingUSA Website</h2>
+              <p id="portfolio-detail-description" class="description-content">
+                A professional lending website built with WordPress and PHP ACF (Advanced Custom Fields).
+                This project involved creating a responsive, user-friendly platform for lending services
+                with custom functionality and seamless user experience.
+              </p>
+
+              <div class="technologies-used">
+                <h4>Technologies Used</h4>
+                <div class="tech-tags">
+                  <span class="tech-tag">WordPress</span>
+                  <span class="tech-tag">PHP</span>
+                  <span class="tech-tag">ACF</span>
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <style>
+      /* Main Styles */
+      .main {
+        min-height: 100vh;
+        background: var(--background-light);
+      }
+
+      /* Page Title Styles */
+      .page-title.dark-background {
+        background-color: #040b14;
+        padding: 2.5rem 0;
+        color: white;
+      }
+
+      .page-title-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+
+      .page-main-title {
+        font-size: 2.25rem;
+        font-weight: 700;
+        margin: 0;
+        color: white;
+      }
+
+      .breadcrumbs ol {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        gap: 0.5rem;
+        align-items: center;
+      }
+
+      .breadcrumbs li {
+        display: flex;
+        align-items: center;
+        font-size: 0.95rem;
+      }
+
+      .breadcrumbs a {
+        color: #d1d5db;
+        text-decoration: none;
+        transition: var(--transition);
+      }
+
+      .breadcrumbs a:hover {
+        color: white;
+      }
+
+      .breadcrumbs .current {
+        color: var(--primary-color);
+        font-weight: 500;
+      }
+
+      .breadcrumbs li:not(:last-child)::after {
+        content: "/";
+        margin-left: 0.5rem;
+        color: #6b7280;
+      }
+
+      /* Portfolio Section Styles */
+      .portfolio-details-section {
+        padding: 3rem 0 5rem;
+      }
+
+      .portfolio-container {
+        max-width: 1200px;
+      }
+
+      .portfolio-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2.5rem;
+        align-items: start;
+      }
+
+      /* Slider Styles */
+      .portfolio-slider-container {
+        position: relative;
+      }
+
+      .portfolio-slider-wrapper {
+        border-radius: 20px;
+        overflow: hidden;
+        box-shadow: var(--shadow);
+        background: white;
+        padding: 1.5rem;
+        transition: var(--transition);
+      }
+
+      .portfolio-slider-wrapper:hover {
+        box-shadow: var(--shadow-hover);
+      }
+
+      .portfolio-slider .swiper-wrapper {
+        border-radius: 16px;
+        overflow: hidden;
+      }
+
+      .portfolio-image {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        transition: var(--transition);
+      }
+
+      .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .swiper-controls {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        transform: translateY(-50%);
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1rem;
+        z-index: 10;
+      }
+
+      .swiper-button-prev,
+      .swiper-button-next {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: var(--shadow);
+        cursor: pointer;
+        transition: var(--transition);
+        color: var(--secondary-color);
+      }
+
+      .swiper-button-prev:hover,
+      .swiper-button-next:hover {
+        background: var(--primary-color);
+        color: white;
+      }
+
+      .swiper-pagination {
+        bottom: 10px !important;
+      }
+
+      .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        background: white;
+        opacity: 0.6;
+        transition: var(--transition);
+      }
+
+      .swiper-pagination-bullet-active {
+        background: var(--primary-color);
+        opacity: 1;
+      }
+
+      /* Info Container Styles */
+      .portfolio-info-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+      }
+
+      .portfolio-info-card,
+      .portfolio-description-card {
+        background: white;
+        border-radius: 16px;
+        padding: 2rem;
+        box-shadow: var(--shadow);
+        transition: var(--transition);
+      }
+
+      .portfolio-info-card:hover,
+      .portfolio-description-card:hover {
+        box-shadow: var(--shadow-hover);
+      }
+
+      .info-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--secondary-color);
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 2px solid var(--border-color);
+      }
+
+      .info-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+      }
+
+      .info-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+      }
+
+      .info-icon-porfolio-dd {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        background: rgba(99, 102, 241, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--primary-color);
+        font-size: 1.1rem;
+        flex-shrink: 0;
+        margin-top: 2px;
+      }
+
+      .info-details {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        flex: 1;
+      }
+
+      .info-label {
+        font-size: 0.9rem;
+        color: var(--text-light);
+        font-weight: 500;
+        margin-bottom: 2px;
+      }
+
+      .info-value {
+        font-weight: 500;
+        color: var(--secondary-color);
+        line-height: 1.4;
+      }
+
+      .info-link {
+        color: var(--primary-color);
+        text-decoration: none;
+        font-weight: 500;
+        transition: var(--transition);
+        word-break: break-all;
+      }
+
+      .info-link:hover {
+        color: var(--primary-dark);
+        text-decoration: underline;
+      }
+
+      /* Description Card Styles */
+      .description-title {
+        font-size: 1.75rem;
+        font-weight: 600;
+        color: var(--secondary-color);
+        margin-bottom: 1rem;
+      }
+
+      .description-content {
+        color: var(--text-color);
+        line-height: 1.7;
+        margin-bottom: 1.5rem;
+      }
+
+      .technologies-used {
+        margin-top: 1.5rem;
+      }
+
+      .technologies-used h4 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--secondary-color);
+        margin-bottom: 0.75rem;
+      }
+
+      .tech-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+
+      .tech-tag {
+        background: rgba(99, 102, 241, 0.1);
+        color: var(--primary-color);
+        padding: 0.4rem 0.8rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        transition: var(--transition);
+      }
+
+      .tech-tag:hover {
+        background: var(--primary-color);
+        color: white;
+      }
+
+      /* Responsive Design - Fixed Mobile Alignment */
+      @media (max-width: 992px) {
+        .portfolio-grid {
+          grid-template-columns: 1fr;
+          gap: 2rem;
+        }
+
+        .page-main-title {
+          font-size: 2rem;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .portfolio-details-section {
+          padding: 2rem 0 3rem;
+        }
+
+        .page-title.dark-background {
+          padding: 2rem 0;
+        }
+
+        .page-title-container {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.75rem;
+        }
+
+        .portfolio-info-card,
+        .portfolio-description-card {
+          padding: 1.5rem;
+        }
+
+        .description-title {
+          font-size: 1.5rem;
+        }
+
+        .swiper-controls {
+          display: none;
+        }
+
+        /* Fixed alignment for tablets */
+        .info-item {
+          align-items: flex-start;
+        }
+
+        .info-icon-porfolio-dd {
+          margin-top: 3px;
+        }
+      }
+
+      @media (max-width: 576px) {
+        .page-main-title {
+          font-size: 1.75rem;
+        }
+
+        .portfolio-slider-wrapper {
+          padding: 1rem;
+        }
+
+        /* Fixed mobile alignment - icons and text properly aligned */
+        .info-item {
+          flex-direction: row;
+          align-items: flex-start;
+          gap: 0.75rem;
+        }
+
+        .info-icon-porfolio-dd {
+          width: 36px;
+          height: 36px;
+          font-size: 1rem;
+          margin-top: 2px;
+          flex-shrink: 0;
+        }
+
+        .info-details {
+          flex: 1;
+          min-width: 0;
+        }
+
+        .info-value,
+        .info-link {
+          font-size: 0.95rem;
+          line-height: 1.4;
+        }
+
+        .tech-tags {
+          gap: 0.4rem;
+        }
+
+        .tech-tag {
+          font-size: 0.8rem;
+          padding: 0.35rem 0.7rem;
+        }
+      }
+
+      @media (max-width: 400px) {
+        .breadcrumbs ol {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.25rem;
+        }
+
+        .breadcrumbs li:not(:last-child)::after {
+          display: none;
+        }
+
+        .portfolio-info-card,
+        .portfolio-description-card {
+          padding: 1.25rem;
+        }
+
+        .info-title {
+          font-size: 1.35rem;
+        }
+
+        .description-title {
+          font-size: 1.4rem;
+        }
+
+        /* Extra small devices alignment fix */
+        .info-item {
+          gap: 0.6rem;
+        }
+
+        .info-icon-porfolio-dd {
+          width: 32px;
+          height: 32px;
+          font-size: 0.9rem;
+        }
+
+        .info-label {
+          font-size: 0.85rem;
+        }
+
+        .info-value,
+        .info-link {
+          font-size: 0.9rem;
+        }
+
+        .info-link {
+          word-break: break-word;
+        }
+      }
+    </style>
+  </main>
+
+  <!-- Mobile Bottom Bar: WhatsApp, Call, Enquire -->
+  <div class="mobile-bottom-bar d-md-none">
+    <a href="https://wa.me/" class="bottom-bar-btn whatsapp" target="_blank" rel="noopener"
+      aria-label="WhatsApp">
+      <i class="bi bi-whatsapp"></i> WhatsApp
+    </a>
+    <a href="tel:+917096748116" class="bottom-bar-btn call" aria-label="Call">
+      <i class="bi bi-telephone-fill"></i> Call
+    </a>
+    <a href="#contact" class="bottom-bar-btn enquire" aria-label="Enquire">
+      <i class="bi bi-envelope-fill"></i> Enquire
+    </a>
+  </div>
+  <!-- /Mobile Bottom Bar -->
+  <footer id="footer" class="footer">
+    <div class="footer-container">
+      <!-- Animated background elements -->
+      <div class="footer-background">
+        <div class="bg-circle circle-1"></div>
+        <div class="bg-circle circle-2"></div>
+        <div class="bg-circle circle-3"></div>
+      </div>
+
+      <div class="footer-content">
+        <!-- Animated signature -->
+        <div class="signature-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="signature">
+            <svg class="signature-svg" viewBox="0 0 500 100">
+              <path class="signature-path" d="M50,50 C150,20 250,80 350,50 C450,20 450,80 450,50" />
+            </svg>
+            <span class="signature-text">vishwraj</span>
+          </div>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="copyright-section" data-aos="fade-up" data-aos-delay="200">
+          <div class="copyright-text">
+            <p>© <span id="year"></span> <strong class="brand-name">vishwraj</strong> | All Rights Reserved</p>
+          </div>
+        </div>
+
+        <!-- Credits Section -->
+        <div class="credits-section" data-aos="fade-up" data-aos-delay="300">
+          <div class="credits-text">
+            <p>Designed & Developed by <a href="#" class="developer-link">vishwraj</a></p>
+          </div>
+        </div>
+
+        <!-- Social Links -->
+        <div class="social-section" data-aos="fade-up" data-aos-delay="400">
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="GitHub">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Email">
+              <i class="bi bi-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Back to Top Button -->
+
+    </div>
+
+    <style>
+      /* Footer Variables */
+      :root {
+        --primary-color: #149ddd;
+        --primary-dark: #0d8ac5;
+        --secondary-color: #173b6c;
+        --text-color: #272829;
+        --text-light: #728394;
+        --background-light: #f5f8fd;
+        --footer-bg: #ffffff;
+        --footer-text: #54595f;
+        --footer-border: #eef0f3;
+        --shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        --transition: all 0.3s ease;
+      }
+
+      /* Footer Styles */
+      .footer {
+        position: relative;
+        background: var(--footer-bg);
+        padding: 4rem 0 2rem;
+        overflow: hidden;
+        isolation: isolate;
+      }
+
+      .footer-container {
+        max-width: 131%;
+        margin: 0 auto;
+        padding: 0 20px;
+        position: relative;
+        z-index: 2;
+      }
+
+      /* Background Elements */
+      .footer-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+      }
+
+      .bg-circle {
+        position: absolute;
+        border-radius: 50%;
+        background: linear-gradient(135deg, var(--primary-color) 0%, rgba(20, 157, 221, 0.1) 100%);
+        opacity: 0.1;
+        animation: float 6s ease-in-out infinite;
+      }
+
+      .circle-1 {
+        width: 200px;
+        height: 200px;
+        top: -50px;
+        left: -50px;
+        animation-delay: 0s;
+      }
+
+      .circle-2 {
+        width: 150px;
+        height: 150px;
+        bottom: 50px;
+        right: 100px;
+        animation-delay: 2s;
+      }
+
+      .circle-3 {
+        width: 100px;
+        height: 100px;
+        top: 100px;
+        right: -30px;
+        animation-delay: 4s;
+      }
+
+      @keyframes float {
+
+        0%,
+        100% {
+          transform: translateY(0) rotate(0deg);
+        }
+
+        50% {
+          transform: translateY(-20px) rotate(10deg);
+        }
+      }
+
+      /* Footer Content */
+      .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 2rem 0;
+      }
+
+      /* Signature Animation */
+      .signature-container {
+        margin-bottom: 1rem;
+      }
+
+      .signature {
+        position: relative;
+        display: inline-block;
+      }
+
+      .signature-svg {
+        width: 180px;
+        height: 60px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0.3;
+      }
+
+      .signature-path {
+        fill: none;
+        stroke: var(--primary-color);
+        stroke-width: 2;
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: drawSignature 3s ease-in-out forwards;
+      }
+
+      @keyframes drawSignature {
+        to {
+          stroke-dashoffset: 0;
+        }
+      }
+
+      .signature-text {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--primary-color);
+        font-family: 'Brush Script MT', cursive;
+        position: relative;
+        z-index: 2;
+        background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        animation: textShine 3s ease-in-out infinite alternate;
+      }
+
+      @keyframes textShine {
+        0% {
+          text-shadow: 0 0 10px rgba(20, 157, 221, 0.3);
+        }
+
+        100% {
+          text-shadow: 0 0 20px rgba(20, 157, 221, 0.6);
+        }
+      }
+
+      /* Copyright Section */
+      .copyright-section {
+        text-align: center;
+      }
+
+      .copyright-text p {
+        font-size: 1.1rem;
+        color: var(--footer-text);
+        margin: 0;
+        font-weight: 400;
+      }
+
+      .brand-name {
+        color: var(--primary-color);
+        font-weight: 700;
+        position: relative;
+        display: inline-block;
+      }
+
+      .brand-name::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: var(--primary-color);
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.3s ease;
+      }
+
+      .brand-name:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+
+      /* Credits Section */
+      .credits-section {
+        text-align: center;
+      }
+
+      .credits-text p {
+        font-size: 1rem;
+        color: var(--text-light);
+        margin: 0;
+      }
+
+      .developer-link {
+        color: var(--primary-color);
+        text-decoration: none;
+        font-weight: 600;
+        position: relative;
+        transition: var(--transition);
+      }
+
+      .developer-link::before {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background: var(--primary-color);
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.3s ease;
+      }
+
+      .developer-link:hover {
+        color: var(--primary-dark);
+      }
+
+      .developer-link:hover::before {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+
+      /* Social Links */
+      .social-section {
+        margin: 1rem 0;
+      }
+
+      .social-links {
+        display: flex;
+        gap: 1.2rem;
+        justify-content: center;
+      }
+
+      .social-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45px;
+        height: 45px;
+        background: var(--background-light);
+        color: var(--primary-color);
+        border-radius: 50%;
+        text-decoration: none;
+        transition: var(--transition);
+        position: relative;
+        overflow: hidden;
+        box-shadow: var(--shadow);
+      }
+
+      .social-link::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+        border-radius: 50%;
+        transform: scale(0);
+        transition: transform 0.3s ease;
+        z-index: 1;
+      }
+
+      .social-link i {
+        font-size: 1.3rem;
+        position: relative;
+        z-index: 2;
+        transition: var(--transition);
+      }
+
+      .social-link:hover::before {
+        transform: scale(1);
+      }
+
+      .social-link:hover i {
+        color: white;
+        transform: rotate(360deg) scale(1.1);
+      }
+
+      /* Back to Top Button */
+      .back-to-top {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 999;
+        opacity: 0;
+        visibility: hidden;
+        transition: var(--transition);
+      }
+
+      .back-to-top.active {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      .back-to-top-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+        color: white;
+        border-radius: 50%;
+        text-decoration: none;
+        box-shadow: var(--shadow);
+        transition: var(--transition);
+        animation: pulse 2s infinite;
+      }
+
+      .back-to-top-btn:hover {
+        transform: translateY(-5px) scale(1.1);
+        box-shadow: 0 8px 25px rgba(20, 157, 221, 0.4);
+      }
+
+      .back-to-top-btn i {
+        font-size: 1.4rem;
+      }
+
+      @keyframes pulse {
+        0% {
+          box-shadow: 0 0 0 0 rgba(20, 157, 221, 0.4);
+        }
+
+        70% {
+          box-shadow: 0 0 0 12px rgba(20, 157, 221, 0);
+        }
+
+        100% {
+          box-shadow: 0 0 0 0 rgba(20, 157, 221, 0);
+        }
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .footer {
+          padding: 3rem 0 1.5rem;
+        }
+
+        .footer-content {
+          gap: 1.2rem;
+          padding: 1.5rem 0;
+        }
+
+        .signature-text {
+          font-size: 2rem;
+        }
+
+        .signature-svg {
+          width: 150px;
+          height: 50px;
+        }
+
+        .copyright-text p {
+          font-size: 1rem;
+        }
+
+        .credits-text p {
+          font-size: 0.95rem;
+        }
+
+        .social-links {
+          gap: 1rem;
+        }
+
+        .social-link {
+          width: 40px;
+          height: 40px;
+        }
+
+        .social-link i {
+          font-size: 1.1rem;
+        }
+
+        .back-to-top {
+          bottom: 20px;
+          right: 20px;
+        }
+
+        .back-to-top-btn {
+          width: 45px;
+          height: 45px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .footer {
+          padding: 2.5rem 0 1rem;
+        }
+
+        .footer-content {
+          gap: 1rem;
+        }
+
+        .signature-text {
+          font-size: 1.8rem;
+        }
+
+        .signature-svg {
+          width: 130px;
+          height: 45px;
+        }
+
+        .copyright-text p {
+          font-size: 0.95rem;
+        }
+
+        .credits-text p {
+          font-size: 0.9rem;
+        }
+
+        .social-links {
+          gap: 0.8rem;
+        }
+
+        .social-link {
+          width: 38px;
+          height: 38px;
+        }
+
+        .back-to-top {
+          bottom: 15px;
+          right: 15px;
+        }
+
+        .back-to-top-btn {
+          width: 42px;
+          height: 42px;
+        }
+      }
+    </style>
+
+
+
+  </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Set current year
+      var yearEl = document.getElementById('year');
+      if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+      }
+
+      // Back to top functionality
+      window.addEventListener('scroll', function () {
+        var backToTop = document.querySelector('.back-to-top');
+        if (backToTop) {
+          if (window.scrollY > 300) {
+            backToTop.classList.add('active');
+          } else {
+            backToTop.classList.remove('active');
+          }
+        }
+      });
+
+      // Smooth scroll to top
+      var scrollTopBtn = document.querySelector('.scroll-top');
+      if (scrollTopBtn) {
+        scrollTopBtn.addEventListener('click', function (e) {
+          e.preventDefault();
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+        });
+      }
+    });
+  </script>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/vendor/php-email-form/validate.js" defer></script>
+  <script src="assets/vendor/aos/aos.js" defer></script>
+  <script src="assets/vendor/typed.js/typed.umd.js" defer></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js" defer></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js" defer></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js" defer></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js" defer></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js" defer></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js" defer></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js" defer></script>
+
+  <script>
+    // Portfolio projects data (should match index.html)
+    const portfolioProjects = [
+      {
+        image: 'assets/img/portfolio/leaninng-1.jpg',
+        title: 'LendingUSA',
+        description: 'Custom WordPress theme for business website',
+        category: 'WordPress & PHP ACF',
+        client: 'Business Client',
+        date: '01 March, 2015',
+        url: 'https://lendingusa.com/',
+        details: 'LendingUSA is a fintech platform that provides point-of-sale financing for merchants and personal loans for borrowers, helping over 10,000 businesses and 150,000 customers with fast, flexible funding solutions.'
+      },
+      {
+        image: 'assets/img/portfolio/jk-.jpeg',
+        title: 'Jk Capinvest',
+        description: 'Advanced WordPress plugin for SEO',
+        category: 'Advanced Wordpress & Elementor Build',
+        client: 'SEO Agency',
+        date: '20 August, 2024',
+        url: 'https://jkcapinvest.com/',
+        details: 'JK CapInvest is a boutique, independent London-based real estate search agency with over 23 years of experience. It offers tailored residential and commercial acquisition, lettings, management, and after-sale services in prime Central London neighborhoods. and analytics for WordPress sites.'
+      },
+      {
+        image: 'assets/img/portfolio/mr-fish.jpg',
+        title: 'Mr Fish Uk',
+        description: 'Advanced WordPress plugin for SEO',
+        category: 'Advanced Wordpress & Elementor Build',
+        client: 'SEO Agency',
+        date: '15 April, 2023',
+        url: 'https://www.mrfish.uk.com/',
+        details: 'Mr Fish — A beloved traditional fish & chips eatery located at 51 Salusbury Rd, London NW6 6NJ, serving up a mix of classic and modern British fare for over 30 years'
+      },
+      {
+        image: 'assets/img/portfolio/Amm-pro.jpg',
+        title: 'Amm Pro',
+        description: 'Advanced WordPress plugin for SEO',
+        category: 'Advanced Wordpress & Elementor Build',
+        client: 'SEO Agency',
+        date: '15 March, 2025',
+        url: 'https://amm-pro.com/',
+        details: 'AMM-PRO (AM Management & Productions) is a London-founded event production company, established in 2003 by Ali Matar. With over 20 years of expertise, AMM-PRO delivers custom-tailored show production and event management—spanning from intimate gatherings to large-scale international productions. Their portfolio includes prestigious venues like the Royal Albert Hall and London Coliseum, and showcases such as "Broken Wings" and "RUMI – THE MUSICAL.'
+      },
+      {
+        image: 'assets/img/portfolio/kasturi_jpg.jpeg',
+        title: 'Kasturi Sphere 360 Media Partner',
+        description: 'Advanced WordPress plugin for SEO',
+        category: 'Advanced Wordpress & Elementor Woocommerce',
+        client: 'Woocommerce, Ecommerce Client',
+        date: '15 January, 2025',
+        url: 'https://dev.digitize-info.com/wordpress/kasturi-sphere-360-media-partner/',
+        details: 'WooCommerce-based eCommerce platform built on WordPress—scalable, SEO-friendly, and highly customizable for seamless product, payment, and order management.'
+      },
+      {
+        image: 'assets/img/portfolio/nikko-garden.jpeg',
+        title: 'Bhartiya City Nikoo Garden Estate Sadahalli Bangalore',
+        description: 'Advanced WordPress plugin for SEO and Php',
+        category: 'Advanced Wordpress & Php ',
+        client: 'Real Estate and Woocommerce Client',
+        date: '15 February , 2025',
+        url: 'https://bhartiyacitynikoosadahalli.com/',
+        details: 'A large luxury township near Bangalore Airport offering apartments, lofts, and villas with premium amenities and strong future connectivity.'
+      },
+      {
+        image: 'assets/img/portfolio/nikko-home22.jpeg',
+        title: 'Nikoo Homes 6 Phase 2 Sadahalli Bangalore',
+        description: 'Advanced WordPress plugin for SEO and Php',
+        category: 'Advanced Wordpress & Php ',
+        client: 'Real Estate and Woocommerce Client',
+        date: '20 February, 2024',
+        url: 'https://nikoohomes6.com/',
+        details: 'A large luxury township near Bangalore Airport offering apartments, lofts, and villas with premium amenities and strong future connectivity.'
+      },
+      {
+        image: 'assets/img/portfolio/Barca-city.jpeg',
+        title: 'Barca At Godrej MSR City Bangalore',
+        description: 'Advanced WordPress plugin for SEO and Php',
+        category: 'Advanced Wordpress & Php ',
+        client: 'Real Estate and Woocommerce Client',
+        date: '20 Marce, 2025',
+        url: 'https://barca-msrcity-shettigere.com/',
+        details: 'A large luxury township near Bangalore Airport offering apartments, lofts, and villas with premium amenities and strong future connectivity.'
+      },
+      {
+        image: 'assets/img/portfolio/leddog.jpeg',
+        title: 'Leadozz',
+        description: 'Advanced WordPress plugin for SEO and Php, HTML5',
+        category: 'Advanced Wordpress & Php ',
+        client: 'Real Estate and Woocommerce Client and Digital Marketing',
+        date: '25 Marce, 2025',
+        url: 'https://leadozz.com/',
+        details: 'Leadozz is a seasoned B2B lead generation agency offering customized, tech-savvy campaigns aimed at delivering measurable ROI. With over a decade in the field, they position themselves as growth partners for businesses seeking high-quality leads, underpinned by data-driven methods and a client-centric approach.'
+      },
+      {
+        image: 'assets/img/portfolio/daida-music.jpeg',
+        title: 'Dalida Musical Tribute',
+        description: 'Advanced WordPress plugin for SEO and Php, HTML5',
+        category: 'Advanced Wordpress & Php, HTML5',
+        client: 'Singing and Music Client',
+        date: '25 Fabruary, 2025',
+        url: 'https://dalidamusicaltribute.com/',
+        details: 'A vibrant stage tribute that revives Dalida\'s timeless songs with live performance, choreography, and visuals—bringing her legacy back to life for global audiences.'
+      },
+      {
+        image: 'assets/img/portfolio/asmahan.jpeg',
+        title: 'Asmahan Show',
+        description: 'Advanced WordPress plugin for SEO and Php',
+        category: 'Advanced Wordpress & Php',
+        client: 'Singing and Music Client',
+        date: '25 Fabruary, 2025',
+        url: 'https://asmahan.show/',
+        details: 'Asmahan: A New Musical Play is a heartfelt, bilingual stage tribute to a legendary singer, blending biography, music, and visual storytelling to revive her legacy—though it shines especially during its concert act.'
+      },
+      {
+        image: 'assets/img/portfolio/Air-bd.jpeg',
+        title: 'Air Bnb',
+        description: 'Application for e-commerce Payment Gateway',
+        category: 'React.js Payment Gateway',
+        client: 'E-Shop',
+        date: '10 June, 2024',
+        url: 'https://www.airbnb.co.in/',
+        details: 'Airbnb is a global online marketplace for short- and long-term lodging, experiences, and services. It was founded in 2008 in San Francisco and is now a publicly traded company on Nasdaq. It connects millions of hosts offering unique accommodations (from cottages to city apartments) and local experiences (like tours or workshops) — all backed by safety tools like verified IDs secure messaging, and 24/7 support through AirCover.'
+      },
+      {
+        image: 'assets/img/portfolio/property.jpeg',
+        title: 'Propty Co',
+        description: 'Application for e-commerce Payment Gateway',
+        category: 'React.js Payment Gateway',
+        client: 'E-Shop Propty Hunters',
+        date: '10 Marce, 2025',
+        url: 'https://www.propty.co/',
+        details: 'PropTy aims to redefine property discovery in Dubai (where it\'s positioned as the first platform of its kind) by combining Augmented Reality with Artificial Intelligence. It not only simplifies finding the right property but also enriches the experience by integrating local lifestyle elements.'
+      },
+      {
+        image: 'assets/img/portfolio/rv-estore.jpeg',
+        title: 'RV Estore',
+        description: 'Application for e-commerce Payment Gateway',
+        category: 'React.js Payment Gateway',
+        client: 'E-Shop Propty Hunters',
+        date: '28 Marce, 2025',
+        url: 'https://www.rv.estore.in/',
+        details: 'There is mention of something called "The RV Store" on Instagram, which hints at categories like Beauty & Personal Care, Health & Wellness, and Pet Care Products, though details are sparse, and it may not be directly linked to the URL you provided. A listing for RV Online Store shows a simple contact form, store hours (8 am – 9 pm), and a legal name of "RV Online Store," but doesn\'t offer much more in terms of product information or an overview.'
+      },
+      {
+        image: 'assets/img/portfolio/Goodi-react.jpeg',
+        title: 'Goodee World',
+        description: 'Application for e-commerce Payment Gateway',
+        category: 'React.js Payment Gateway',
+        client: 'E-Shop Woocommerce',
+        date: '28 April, 2025',
+        url: 'https://www.goodeeworld.com/',
+        details: 'Goodee—also known as Goodee World—is a curated online marketplace rooted in the ethos of "good design, good people, and good purpose." It showcases thoughtfully selected home goods and decor items that are not only aesthetically appealing but also socially and environmentally conscientious. Every product is vetted by Goodee\'s in-house sustainability team for its design integrity and meaningful impact.'
+      },
+      {
+        image: 'assets/img/portfolio/kith-pic.jpeg',
+        title: 'Kith',
+        description: 'Custom Shopify theme for online store',
+        category: 'Shopify',
+        client: 'Online Retailer',
+        date: '05 August, 2024',
+        url: 'https://kith.com/',
+        details: 'Global footprint: Operates around 17 standalone boutiques worldwide and several shop-in-shops in premier department stores like Selfridges and Hirshleifers. Kith Treats: A signature in-store experience—a nostalgic cereal and ice-cream bar born out of Fieg\'s childhood love for cereal. It began in 2015 and features rotating menu creations by talents like Victor Cruz, Action Bronson, Virgil Abloh, Daniel Arsham, and Futura.'
+      },
+      {
+        image: 'assets/img/portfolio/all-bird.jpeg',
+        title: 'All Birds',
+        description: 'Custom Shopify theme for online store',
+        category: 'Shopify Advance Plugin Integration',
+        client: 'Online Retailer',
+        date: '05 Marce, 2025',
+        url: 'https://www.allbirds.com/',
+        details: 'Allbirds is an American footwear and apparel company founded in 2015 by Tim Brown and Joey Zwillinger, and headquartered in San Francisco. It began with the Wool Runner sneaker and has grown into a global brand recognized for its minimalist design and sustainable ethos.'
+      },
+      {
+        image: 'assets/img/portfolio/cow-boy.jpeg',
+        title: 'Cowboy',
+        description: 'Custom Shopify theme for online store',
+        category: 'Shopify Advance Plugin Integration',
+        client: 'Online Retailer',
+        date: '14 Marce, 2025',
+        url: 'https://cowboy.com/',
+        details: 'Cowboy is a designer and manufacturer of connected electric bikes (e-bikes), aimed primarily at urban riders seeking a smart and seamless mobility experience. The bikes are designed in Belgium and assembled in France Founded in 2017 in Brussels by Adrien Roose, Karim Slaoui, and Tanguy Goretti, Cowboy has garnered design acclaim, including the Eurobike Award, multiple Red Dot "Best of the Best" awards, and recognition in TIME Magazine s Best Inventions list The Guardian Cowboy Cowboy now serves customers across 2,500+ cities in Europe and the U.S'
+      },
+      {
+        image: 'assets/img/portfolio/love-helghy.jpeg',
+        title: 'Love Healthy',
+        description: 'Branding website with custom CMS',
+        category: 'Core PHP',
+        client: 'Brand Studio',
+        date: '20 September, 2024',
+        url: 'https://dev.digitize-info.com/php_projects/love-healthy/',
+        details: 'Love Healthy Project A custom Content Management System (CMS) and branding website developed using PHP and MySQL. The platform is designed to provide dynamic content management, user-friendly administration, and strong branding features, enabling efficient website updates and a seamless digital presence.'
+      },
+      {
+        image: 'assets/img/portfolio/nikko-pahse-111.jpeg',
+        title: 'Nikoo Homes 5 Phase II',
+        description: 'Branding website with custom CMS',
+        category: 'Core PHP',
+        client: 'Real Estate - Bangalore',
+        date: '20 Marce, 2025',
+        url: 'https://nikoohome5.in/',
+        details: 'Backend: PHP on an nginx server Frontend: A hybrid architecture that uses React for dynamic features like instant search and filters, providing a fast, app-like user experience. Infrastructure A CDN and caching for optimized performance and fast global content delivery. Core Function: A standard LEMP stack (Linux, nginx, MySQL, PHP) tailored for a scalable online store.'
+      },
+      {
+        image: 'assets/img/portfolio/perfect-home.jpeg',
+        title: 'Perfect Homz',
+        description: 'Branding website with custom CMS',
+        category: 'Core PHP',
+        client: 'Real Estate - Bangalore',
+        date: '10 Marce, 2025',
+        url: 'https://perfecthomz.com/',
+        details: 'Core Platform: The site is a WordPress application, using the Astra theme as its foundation. The backend is powered by PHP, with data stored in a MySQL/MariaDB database. E-commerce Engine: It utilizes WooCommerce to manage its product catalog, shopping cart, and checkout processes, identifying it as a standard WordPress-based e-commerce site. Frontend & Interactivity: The UI is built with standard web technologies (HTML5, CSS3, JavaScript). It relies heavily on jQuery for DOM manipulation and dynamic elements like sliders and AJAX calls, rather than a modern framework like React. '
+      },
+      {
+        image: 'assets/img/portfolio/mira-lotha-55.jpeg',
+        title: 'Lodha Mirabelle Phase - IV',
+        description: 'Branding website with custom CMS Html5',
+        category: 'Core PHP',
+        client: 'Real Estate - Bangalore',
+        date: '10 Marce, 2025',
+        url: 'https://www.mirabelleproject.com/lodha-group/lodha-mirabelle-bangalore/',
+        details: 'This marketing website is engineered on a custom technology stack, utilizing Core PHP for its server-side logic without reliance on a mainstream framework. The frontend is crafted with standard HTML5, CSS3, and Vanilla JavaScript—supplemented with jQuery—to deliver a premium brand experience characterized by dynamic animations and a video-heavy presentation. Content is managed through a bespoke, in-house CMS built on Core PHP, providing tailored control for real estate branding needs. Hosted on an Apache web server, the site s defining technical feature is its immersive use of video backgrounds and smooth scroll animations, creating a cinematic user journey designed for high-end property marketing'
+      },
+      {
+        image: 'assets/img/portfolio/mirebal-ii.jpeg',
+        title: 'Lodha Mirabelle Phase - I',
+        description: 'Branding website with custom CMS Html5',
+        category: 'Core PHP',
+        client: 'Real Estate - Bangalore',
+        date: '05 Marce, 2025',
+        url: 'https://mirabelle-manyata-bangalore.com/',
+        details: 'This marketing website is engineered on a custom technology stack, utilizing Core PHP for its server-side logic without reliance on a mainstream framework. The frontend is crafted with standard HTML5, CSS3, and Vanilla JavaScript—supplemented with jQuery—to deliver a premium brand experience characterized by dynamic animations and a video-heavy presentation. Content is managed through a bespoke, in-house CMS built on Core PHP, providing tailored control for real estate branding needs. Hosted on an Apache web server, the site s defining technical feature is its immersive use of video backgrounds and smooth scroll animations, creating a cinematic user journey designed for high-end property marketing'
+      },
+      {
+        image: 'assets/img/portfolio/tata-111.jpeg',
+        title: 'TATA Carnatica Phase - I',
+        description: 'Branding website with custom CMS Html5',
+        category: 'Core PHP',
+        client: 'Real Estate - Bangalore',
+        date: '05 Marce, 2025',
+        url: 'https://tatacarnaticabangalore.in/',
+        details: 'This branding website is engineered on a lean and purpose-built technology stack, utilizing core PHP for its server-side logic. This indicates a custom-developed backend architecture, deliberately constructed without the overhead of a standard framework like Laravel or Symfony. The content is managed through a proprietary CMS, a bespoke system also built with core PHP and MySQL, designed specifically for the site s unique requirements to handle text, images, and announcements. For the client-facing experience, the frontend relies on the fundamental building blocks of the web: HTML5 and vanilla JavaScript, ensuring broad compatibility and efficient performance without the complexity of modern front-end frameworks. The entire application is supported by the reliable and ubiquitous LAMP (Linux, Apache, MySQL, PHP) stack, forming a classic and robust foundation for this custom web application.'
+      },
+      {
+        image: 'assets/img/portfolio/tataiii.jpeg',
+        title: 'TATA Carnatica Phase - III',
+        description: 'Branding website with custom CMS Html5',
+        category: 'Core PHP',
+        client: 'Real Estate - Bangalore',
+        date: '05 Marce, 2025',
+        url: 'https://www.thecarnatica.net.in/',
+        details: 'This branding website is engineered on a lean and purpose-built technology stack, utilizing core PHP for its server-side logic. This indicates a custom-developed backend architecture, deliberately constructed without the overhead of a standard framework like Laravel or Symfony. The content is managed through a proprietary CMS, a bespoke system also built with core PHP and MySQL, designed specifically for the site s unique requirements to handle text, images, and announcements. For the client-facing experience, the frontend relies on the fundamental building blocks of the web: HTML5 and vanilla JavaScript, ensuring broad compatibility and efficient performance without the complexity of modern front-end frameworks. The entire application is supported by the reliable and ubiquitous LAMP (Linux, Apache, MySQL, PHP) stack, forming a classic and robust foundation for this custom web application.'
+      },
+      {
+        image: 'assets/img/portfolio/birlaiii.jpeg',
+        title: 'Birla Estates Trimaya Phase 3',
+        description: 'Branding website with custom CMS Html5',
+        category: 'Core PHP',
+        client: 'Real Estate - Bangalore',
+        date: '28 Marce, 2025',
+        url: 'https://birlahomes.in/trimaya/',
+        details: 'This branding website is engineered on a lean and purpose-built technology stack, utilizing core PHP for its server-side logic. This indicates a custom-developed backend architecture, deliberately constructed without the overhead of a standard framework like Laravel or Symfony. The content is managed through a proprietary CMS, a bespoke system also built with core PHP and MySQL, designed specifically for the site s unique requirements to handle text, images, and announcements. For the client-facing experience, the frontend relies on the fundamental building blocks of the web: HTML5 and vanilla JavaScript, ensuring broad compatibility and efficient performance without the complexity of modern front-end frameworks. The entire application is supported by the reliable and ubiquitous LAMP (Linux, Apache, MySQL, PHP) stack, forming a classic and robust foundation for this custom web application.'
+      },
+      {
+        image: 'assets/img/portfolio/birlaa112.jpeg',
+        title: 'Birla Estates Trimaya Phase 1',
+        description: 'Branding website with custom CMS Html5',
+        category: 'Core PHP',
+        client: 'Real Estate - Bangalore',
+        date: '29 Marce, 2025',
+        url: 'https://birlatrimaya-devanahalli.com/',
+        details: 'This branding website is engineered on a lean and purpose-built technology stack, utilizing core PHP for its server-side logic. This indicates a custom-developed backend architecture, deliberately constructed without the overhead of a standard framework like Laravel or Symfony. The content is managed through a proprietary CMS, a bespoke system also built with core PHP and MySQL, designed specifically for the site s unique requirements to handle text, images, and announcements. For the client-facing experience, the frontend relies on the fundamental building blocks of the web: HTML5 and vanilla JavaScript, ensuring broad compatibility and efficient performance without the complexity of modern front-end frameworks. The entire application is supported by the reliable and ubiquitous LAMP (Linux, Apache, MySQL, PHP) stack, forming a classic and robust foundation for this custom web application.'
+      },
+
+
+
+      {
+        image: 'assets/img/portfolio/dwarkesh-jai-jpeg.jpeg',
+        title: 'Shree Dwarkesh Enterprise',
+        description: 'Book management system and Expanse Management with Laravel',
+        category: 'Laravel',
+        client: 'Finance Management',
+        date: '12 December, 2024',
+        url: 'https://dwarkeshenterprise.com/sde-admin/dashboard',
+        details: 'Created a scalable Expanse Management and book management system using Laravel and Vue.js.'
+      },
+      {
+        image: 'assets/img/portfolio/shive-pp.jpeg',
+        title: 'Shiv Petroleum ',
+        description: 'Book management system and Expanse Management with Laravel',
+        category: 'Laravel',
+        client: 'Finance Management and Petrol Pump',
+        date: '12 December, 2024',
+        url: 'https://dwarkeshenterprise.com/sde-admin/dashboard',
+        details: 'Created a scalable Expanse Management and book management system and payment gateway and Api integration using Laravel and Vue.js.'
+      },
+      {
+        image: 'assets/img/portfolio/eventppp.jpeg',
+        title: ' EventHub',
+        description: 'Book management system and Expanse Management with Laravel',
+        category: 'Laravel',
+        client: 'Finance Management and Petrol Pump',
+        date: '12 Marce, 2025',
+        url: 'https://versapublish.com/',
+        details: 'The Event Management System is a web and mobile-based application developed to simplify the process of planning, organizing, and executing events such as conferences, weddings, exhibitions, concerts, and corporate functions. It provides a centralized platform where organizers can create and manage events, vendors can offer their services, and attendees can easily register, purchase tickets, and receive updates. The system supports features like online registration, secure ticket booking with integrated payment gateways, vendor and budget management, real-time notifications, and analytics to track the overall performance of events. To ensure a seamless experience, the project uses modern technologies. The frontend is developed with React.js or Next.js for a responsive, user-friendly interface, styled with Tailwind CSS or Bootstrap. The backend is powered by Node.js with Express.js, offering scalability and real-time event updates using WebSockets. For data storage, MongoDB is used to handle dynamic event details, while relational databases like PostgreSQL or MySQL can be integrated for structured data such as bookings and payments. Authentication is secured with JWT or Firebase Authentication, supporting social logins for convenience. For transactions, payment gateways such as Stripe, Razorpay, or PayPal are integrated. The system is hosted on cloud platforms like AWS, Google Cloud, or Firebase for scalability and reliability.'
+      }
+    ];
+
+    // =======================================================================================================================================================================================================================================
+
+
+    window.addEventListener('DOMContentLoaded', function () {
+      const idx = localStorage.getItem('selectedProjectIndex') || 0;
+      const project = portfolioProjects[idx];
+      if (project) {
+        document.getElementById('portfolio-detail-image').src = project.image;
+        document.getElementById('portfolio-detail-title').textContent = project.title;
+        document.getElementById('portfolio-detail-description').textContent = project.details;
+        document.getElementById('portfolio-detail-category').textContent = project.category;
+        document.getElementById('portfolio-detail-client').textContent = project.client;
+        document.getElementById('portfolio-detail-date').textContent = project.date;
+        document.getElementById('portfolio-detail-url').textContent = project.url;
+        document.getElementById('portfolio-detail-url').href = project.url;
+      } else {
+        document.getElementById('portfolio-detail-image').src = '';
+        document.getElementById('portfolio-detail-title').textContent = '';
+        document.getElementById('portfolio-detail-description').textContent = '';
+        document.getElementById('portfolio-detail-category').textContent = '';
+        document.getElementById('portfolio-detail-client').textContent = '';
+        document.getElementById('portfolio-detail-date').textContent = '';
+        document.getElementById('portfolio-detail-url').textContent = '';
+        document.getElementById('portfolio-detail-url').href = '#';
+      }
+    });
+  </script>
+
+</body>
+
+</html>
