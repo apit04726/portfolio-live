@@ -487,8 +487,9 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 32px;
+  max-height: 28px;
   margin-right: 8px;
+  border-radius: 7px !important;
 }
 
 .header .logo h1 {
